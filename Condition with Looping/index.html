@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Condition with Looping</title>
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+        padding: 20px;
+        background: #f4f4f4;
+      }
+      .box {
+        background: white;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 5px gray;
+      }
+      input {
+        padding: 8px;
+        margin: 5px;
+      }
+      button {
+        padding: 8px 12px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Condition with Looping</h1>
+
+    <div class="box">
+      <h3>1. Even / Odd</h3>
+      <input id="num1" type="number" />
+      <button onclick="checkEvenOdd()">Check</button>
+      <p id="result1"></p>
+    </div>
+
+    <div class="box">
+      <h3>2. Positive / Negative</h3>
+      <input id="num2" type="number" />
+      <button onclick="checkSign()">Check</button>
+      <p id="result2"></p>
+    </div>
+
+    <div class="box">
+      <h3>3. Multiplication Table</h3>
+      <input id="num3" type="number" />
+      <button onclick="table()">Show</button>
+      <pre id="result3"></pre>
+    </div>
+
+    <div class="box">
+      <h3>4. Pass / Fail</h3>
+      <input id="marks" type="number" />
+      <button onclick="checkMarks()">Check</button>
+      <p id="result4"></p>
+    </div>
+
+    <div class="box">
+      <h3>5. Age Check</h3>
+      <input id="age" type="number" />
+      <button onclick="checkAge()">Check</button>
+      <p id="result5"></p>
+    </div>
+
+    <div class="box">
+      <h3>6. Sum 1 to N</h3>
+      <input id="num6" type="number" />
+      <button onclick="sumNum()">Calculate</button>
+      <p id="result6"></p>
+    </div>
+
+    <div class="box">
+      <h3>7. Divisible by 5</h3>
+      <input id="num7" type="number" />
+      <button onclick="checkDiv()">Check</button>
+      <p id="result7"></p>
+    </div>
+
+    <div class="box">
+      <h3>8. Countdown</h3>
+      <input id="num8" type="number" />
+      <button onclick="countDown()">Start</button>
+      <pre id="result8"></pre>
+    </div>
+
+    <div class="box">
+      <h3>9. Factorial</h3>
+      <input id="num9" type="number" />
+      <button onclick="factorial()">Find</button>
+      <p id="result9"></p>
+    </div>
+
+    <div class="box">
+      <h3>10. Largest of Two Numbers</h3>
+      <input id="num10a" type="number" placeholder="Number 1" />
+      <input id="num10b" type="number" placeholder="Number 2" />
+      <button onclick="largest()">Check</button>
+      <p id="result10"></p>
+    </div>
+
+    <script src="1.js"></script>
+  </body>
+</html>
